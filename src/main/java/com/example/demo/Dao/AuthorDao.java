@@ -11,5 +11,5 @@ public interface AuthorDao {
 
    Optional<Author> findOne(Long id);
 
-    List<Author> find();
+
 }

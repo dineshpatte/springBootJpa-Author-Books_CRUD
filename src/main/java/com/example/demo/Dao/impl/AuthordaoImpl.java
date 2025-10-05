@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
+
 @Component
 public class AuthordaoImpl implements AuthorDao {
 
@@ -46,7 +47,5 @@ public class AuthordaoImpl implements AuthorDao {
         }
     }
 
-    public List<Author> findAll(){
-        return null;
-    }
+
 }
